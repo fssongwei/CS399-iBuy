@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="level">
+        <item>Urgent</item>
+        <item>Medium</item>
+        <item>Low</item>
+    </string-array>
+
+    <string-array name="category">
+        <item>Auto</item>
+        <item>Baby</item>
+        <item>Beauty</item>
+        <item>Book</item>
+        <item>Clothing</item>
+        <item>Electronic</item>
+        <item>Food</item>
+        <item>Furniture</item>
+        <item>Health</item>
+        <item>Sport</item>
+        <item>Pets</item>
+        <item>Toys</item>
+        <item>Else</item>
+    </string-array>
+
+</resources>

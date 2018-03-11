@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/side_nav_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Enter an item:"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+
+                <EditText
+                    android:id="@+id/item"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/next"
+                    android:layout_width="0dp"
+                    android:layout_height="60sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Or select a catalog below:"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:soundEffectsEnabled="false">
+
+                <Button
+                    android:id="@+id/add_category"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="+"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/c1"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Auto"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <Button
+                    android:id="@+id/c2"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Baby"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:soundEffectsEnabled="false">
+
+                <Button
+                    android:id="@+id/c3"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Beauty"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/c4"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Book"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <Button
+                    android:id="@+id/c5"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Clothing"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:soundEffectsEnabled="false">
+
+                <Button
+                    android:id="@+id/c6"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Food"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/c7"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Furniture"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <Button
+                    android:id="@+id/c8"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Health"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:soundEffectsEnabled="false">
+
+                <Button
+                    android:id="@+id/c9"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Electronic"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:id="@+id/c10"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Sport"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+
+
+                <Button
+                    android:id="@+id/c11"
+                    android:layout_width="0dp"
+                    android:layout_height="100sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Pets"
+                    android:textColor="@android:color/white"
+                    android:textSize="15sp" />
+            </TableRow>
+
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:soundEffectsEnabled="false">
+
+            <Button
+                android:id="@+id/c12"
+                android:layout_width="0dp"
+                android:layout_height="100sp"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/transparent"
+                android:text="Toys"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+
+
+
+        </TableRow>
+
+    </TableLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

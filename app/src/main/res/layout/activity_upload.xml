@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/side_nav_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/msg_item"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Item:"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <EditText
+                    android:id="@+id/item"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:inputType="number"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:visibility="invisible" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Quantity:"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Cost:"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+
+                <EditText
+                    android:id="@+id/add_quantity"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:inputType="number" />
+
+                <EditText
+                    android:id="@+id/add_cost"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp"
+                    android:inputType="number" />
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Urgency:"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:text="Category:"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_weight="1">
+
+                <Spinner
+                    android:id="@+id/level"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:layout_height="60sp"
+                    android:entries="@array/level">
+                </Spinner>
+
+                <Spinner
+                    android:id="@+id/category"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:layout_height="60sp"
+                    android:entries="@array/category">
+                </Spinner>
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:soundEffectsEnabled="false">
+
+                <Button
+                    android:id="@+id/btn_add_item"
+                    android:layout_width="0dp"
+                    android:layout_height="80sp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@android:color/transparent"
+                    android:text="Add"
+                    android:textColor="@android:color/white"
+                    android:textSize="20sp" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/bar3"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="91dp"
+        android:layout_height="90dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>
